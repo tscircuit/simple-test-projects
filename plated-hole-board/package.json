@@ -1,0 +1,21 @@
+{
+  "name": "@tsci/seveibar.plated-hole",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "tsci dev",
+    "build": "tsup ./index.ts --sourcemap --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tscircuit": "^0.0.196",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  },
+  "type": "module"
+}
